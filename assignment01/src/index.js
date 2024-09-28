@@ -1,3 +1,10 @@
+/*
+ * File name: index.js
+ * Student’s Name: Guilherme Passos Da Silva
+ * StudentID: 301379110
+ * Date: 2024-09-27
+ */
+
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";

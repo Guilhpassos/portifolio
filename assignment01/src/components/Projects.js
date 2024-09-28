@@ -1,7 +1,14 @@
+/*
+ * File name: Projects.js
+ * Student’s Name: Guilherme Passos Da Silva
+ * StudentID: 301379110
+ * Date: 2024-09-27
+ */
+
 import e_commerce from '../assets/E-commerce.jpg'; // Ensure this path is correct
 import taskManagementImage from '../assets/taskManagement.jpeg'; // Ensure this path is correct
 import weatherDashboardImage from '../assets/weatherDashboardImage.png'; // Ensure this path is correct
-
+import './Projects.css';
 const Projects = () => {
     return (
         <>

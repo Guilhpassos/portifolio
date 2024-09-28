@@ -1,3 +1,10 @@
+/*
+ * File name: About.js
+ * Student’s Name: Guilherme Passos Da Silva
+ * StudentID: 301379110
+ * Date: 2024-09-27
+ */
+
 import './about.css';
 import profileImage from '../assets/Eu.jpg'; // Ensure this path is correct
 import resumePDF from '../assets/resume.pdf'; // Replace with the actual path to your PDF
