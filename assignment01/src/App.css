@@ -1,7 +1,20 @@
+/*
+ * File name: App.css
+ * Student’s Name: Guilherme Passos Da Silva
+ * StudentID: 301379110
+ * Date: 2024-09-27
+ */
+
+/* ==============================
+   General Styles
+============================== */
 .App {
   text-align: center;
 }
 
+/* ==============================
+   Logo Styles
+============================== */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +26,9 @@
   }
 }
 
+/* ==============================
+   Header Styles
+============================== */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +40,16 @@
   color: white;
 }
 
+/* ==============================
+   Link Styles
+============================== */
 .App-link {
   color: #61dafb;
 }
 
+/* ==============================
+   Keyframe Animations
+============================== */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
