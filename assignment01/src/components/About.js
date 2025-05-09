@@ -7,7 +7,7 @@
 
 import './about.css';
 import profileImage from '../assets/Eu.jpg'; // Ensure this path is correct
-import resumePDF from '../assets/resume.pdf'; // Replace with the actual path to your PDF
+import Resume from '../assets/Resume.pdf'; // Replace with the actual path to your PDF
 
 const About = () => {
     return (
@@ -32,7 +32,7 @@ const About = () => {
                     and enhancing my problem-solving approaches.
                 </p>
                 <p>
-                    You can download my resume here: <a href={Resume.pdf} target="_blank" rel="noopener noreferrer">Download Resume</a>
+                    You can download my resume here: <a href={Resume} target="_blank" rel="noopener noreferrer">Download Resume</a>
                 </p>
             </section>
         </div>
