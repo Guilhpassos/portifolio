@@ -32,7 +32,7 @@ const About = () => {
                     and enhancing my problem-solving approaches.
                 </p>
                 <p>
-                    You can download my resume here: <a href={resumePDF} target="_blank" rel="noopener noreferrer">Download Resume</a>
+                    You can download my resume here: <a href={Resume} target="_blank" rel="noopener noreferrer">Download Resume</a>
                 </p>
             </section>
         </div>
