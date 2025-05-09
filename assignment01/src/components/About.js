@@ -7,7 +7,7 @@
 
 import './about.css';
 import profileImage from '../assets/Eu.jpg'; // Ensure this path is correct
-import Resume from '../assets/Resume.pdf'; // Replace with the actual path to your PDF
+import Resume from '../assets/resume.pdf'; // Replace with the actual path to your PDF
 
 const About = () => {
     return (
