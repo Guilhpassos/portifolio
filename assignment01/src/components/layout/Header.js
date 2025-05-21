@@ -1,21 +1,18 @@
 /*
- * File name: Header.js
- * Student’s Name: Guilherme Passos Da Silva
- * StudentID: 301379110
- * Date: 2024-09-27
- */
+ * File name: services.css
+   Name: Guilherme Passos Da Silva
+  */
+ 
 
 import { Outlet, NavLink, Link } from "react-router-dom";
-import image_logo from "../../assets/image_logo.png"
+
 
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
-            <img src={image_logo} alt="logo" style={{ width: 70 }} />
-          </NavLink>
+x
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +25,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/services">
-                  <i className="fa-solid fa-rocket"></i> Services
+                  <i className="fa-solid fa-rocket"></i> Knowledge
                 </NavLink>
               </li>
               <li className="nav-item">

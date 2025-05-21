@@ -1,9 +1,7 @@
 /*
- * File name: Home.js
- * Student’s Name: Guilherme Passos Da Silva
- * StudentID: 301379110
- * Date: 2024-09-27
- */
+   Name: Guilherme Passos Da Silva
+  */
+ 
 
 import './Home.css';
 import { Link } from 'react-router-dom'; // Import Link for navigation
@@ -13,22 +11,19 @@ const Home = () => {
         <>
             <div className="container">
                 <h1>Welcome to My Portfolio</h1>
-                <p>This is the home page of my portfolio website. Here you'll find information about my projects, skills, and experience.</p>
 
                 <section className="intro-section">
                     <h2>Introduction</h2>
                     <p>
-                        Hi! I'm Guilherme Passos, a passionate software engineering student with a love for learning new technologies and solving problems.
+                        Hi, I’m Guilherme Passos and I'm a software engineering with a strong interest in technology and a passion for solving problems through code.
                     </p>
-                    <p>
-                        Explore my website to know more about me, my projects, and the services I offer.
-                    </p>
+
                 </section>
 
                 <section className="mission-statement">
-                    <h2>Mission Statement</h2>
+                    <h2>Long Term Goal</h2>
                     <p>
-                        My mission is to leverage technology to create impactful solutions, continuously improve my skills, and contribute positively to the tech community.
+                        My professional goal is to apply technology in meaningful ways, develop my skills over time, and build a solid career in the tech industry. I believe in long-term commitment and am dedicated to adding value and evolving in every stage of my career.
                     </p>
                 </section>
 

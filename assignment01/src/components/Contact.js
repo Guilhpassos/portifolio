@@ -1,24 +1,21 @@
 /*
- * File name: Contact.js
- * Student’s Name: Guilherme Passos Da Silva
- * StudentID: 301379110
- * Date: 2024-09-27
+ * File name: Contact.jsx
+ * Name: Guilherme Passos Da Silva
  */
 
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Use useNavigate instead of useHistory
+import { useNavigate } from 'react-router-dom';
 import './Contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    fullName: '',
     contactNumber: '',
     email: '',
     message: ''
   });
-  
-  const navigate = useNavigate(); // Initialize useNavigate
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +25,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    navigate('/'); // Redirect to Home Page
+    navigate('/');
   };
 
   return (
@@ -37,10 +34,12 @@ const Contact = () => {
       <p>If you'd like to get in touch, feel free to send me a message through the form below or reach out via my social media links.</p>
 
       <form className="contact-form" onSubmit={handleSubmit}>
-        {['firstName', 'lastName', 'contactNumber', 'email', 'message'].map((field) => (
+        {['fullName', 'contactNumber', 'email', 'message'].map((field) => (
           <div className="form-group" key={field}>
             <label htmlFor={field}>
-              {field === 'contactNumber' ? 'Contact Number:' : field.charAt(0).toUpperCase() + field.slice(1) + ':'}
+              {field === 'contactNumber' ? 'Contact Number:' :
+               field === 'fullName' ? 'Full Name:' :
+               field.charAt(0).toUpperCase() + field.slice(1) + ':'}
             </label>
             {field !== 'message' ? (
               <input
@@ -77,14 +76,12 @@ const Contact = () => {
 
       {/* Social Media Links */}
       <section className="social-section">
-    <h2>Follow me on social media</h2>
-    <ul className="social-links">
-        <li><a href="https://www.linkedin.com/in/guilherme-passos-025b71319/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-        <li><a href="https://github.com/Guilhpassos" target="_blank" rel="noreferrer">GitHub</a></li>
-        <li><a href="https://www.instagram.com/guilh_passos?igsh=MWM2a3Q2bmFxczNzbA%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">Instagram</a></li>
-    </ul>
-</section>
-
+        <h2>Follow me on social media</h2>
+        <ul className="social-links">
+          <li><a href="https://www.linkedin.com/in/guilherme-passos-025b71319/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/Guilhpassos" target="_blank" rel="noreferrer">GitHub</a></li>
+        </ul>
+      </section>
     </div>
   );
 };

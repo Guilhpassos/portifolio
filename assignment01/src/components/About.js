@@ -1,9 +1,8 @@
 /*
- * File name: About.js
- * Student’s Name: Guilherme Passos Da Silva
- * StudentID: 301379110
- * Date: 2024-09-27
- */
+ * File name: services.css
+   Name: Guilherme Passos Da Silva
+  */
+ 
 
 import './about.css';
 import profileImage from '../assets/Eu.jpg'; // Ensure this path is correct
@@ -19,18 +18,16 @@ const About = () => {
             </div>
             <section className="about-section">
                 <p>
-                    I am Guilherme Passos, a Software Engineering student with a passion for technology and continuous learning. 
-                    I thrive in problem-solving environments and enjoy working with diverse technologies to create meaningful solutions. 
-                    Currently, I'm advancing my skills in web development, data structures, and algorithms.
+                    Hi, my name is Guilherme Passos. I'm a passionate software engineer who loves turning ideas into real solutions that make everyday life easier. I have a strong foundation in both frontend and backend development, and I’m always looking for ways to build clean, intuitive, and scalable applications.
+
+
                 </p>
                 <p>
-                    With experience in both frontend and backend development, I focus on building user-friendly, responsive applications. 
-                    I am committed to refining my craft and am always open to learning new methodologies and improving my existing capabilities.
+                    Technology has always fascinated me — not just because of what I can do, but because of how it connects people and opens up new opportunities. I enjoy diving into new tools, learning from challenges, and improving a little more with every project. Whether it's web development, database design, debugging code, or tackling something outside of my comfort zone, I like figuring things out and getting them to work just right.
+
                 </p>
                 <p>
-                    When I’m not coding, I’m exploring different cultures and languages, which I find essential in broadening my perspective 
-                    and enhancing my problem-solving approaches.
-                </p>
+                    Outside of tech, I'm genuinely curious about languages and cultures. I believe that staying open to different perspectives helps me grow — not only as a developer, but as a person. For me, growth isn’t just about code; it’s about learning, listening, and  putting effort with purpose                </p>
                 <p>
                     You can download my resume here: <a href={Resume} target="_blank" rel="noopener noreferrer">Download Resume</a>
                 </p>
